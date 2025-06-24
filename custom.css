@@ -974,14 +974,13 @@ body {
   font-weight: 400;
   color: #4a4a4a;
   border-right: 1px solid #d8d8d8;
-  /* padding-right:20px; */
   margin-right: 20px;
   line-height: 40px;
   display: inline-block;
 }
 
 #header__top .enter__contact a.btn-entrar:hover {
-  color: #ef5350;
+  background: #34a052;
 }
 
 .header__search {
