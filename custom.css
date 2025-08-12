@@ -884,11 +884,15 @@ body {
 }
 
 .btn.btn-green {
-  background-color: #66bb6a;
+  background-color: transparent;
+  font-weight: 400;
+  color: #000 !important;
+  border: 2px solid #66bb6a;
 }
 
 .btn.btn-green:hover {
   background-color: #34a052;
+  color: #fff !important;
 }
 
 @media (min-width: 1200px) {
@@ -984,18 +988,20 @@ body {
   width: 100px;
   text-align: center !important;
   border-radius: 3px;
-  font-weight: bold;
-  color: #fff !important;
+  font-weight: 400;
+  color: #000 !important;
   /* border-right: 1px solid #d8d8d8; */
   /* padding-right: 20px; */
   margin-right: 20px;
   line-height: 40px;
   display: inline-block;
-  background: #66bb6a;
+  background: transparent;
+  border: 2px solid #66bb6a;
 }
 
 #header__top .enter__contact a.btn-entrar:hover {
   background: #34a052;
+  color: #fff !important;
 }
 
 .header__search {
@@ -1227,9 +1233,9 @@ footer .box__artigos .artigos > div {
     /* padding: 30px 30px 20px; */
     /* width: 100%; */
     /* padding: 25px 25px 15px 25px; */
-    background-color: #f4f4f4;
+    background-color: transparent;
     border-radius: 15px;
-    border: 2px solid #ddd;
+    border: 2px solid #9E9E9E;
     margin-bottom: 20px;
     text-align: center;
   }
