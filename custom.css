@@ -1237,7 +1237,7 @@ footer .box__artigos .artigos > div {
     border-radius: 15px;
     border: 2px solid #9E9E9E;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: start;
   }
 }
 
@@ -1251,14 +1251,14 @@ footer .widget.articles h2 {
 }
 
 footer .widget.articles ul {
-  /* list-style:none; */
+  list-style:none;
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
 footer .widget.articles ul li {
-  border-bottom: 1px solid #e6e6e6;
+  /* border-bottom: 1px solid #e6e6e6; */
   padding-bottom: 8px;
   margin-bottom: 8px;
   /* width: 100%; */
@@ -1270,6 +1270,11 @@ footer .widget.articles ul li a {
   display: block;
   font-size: 13px;
   width: 100%;
+  /* text-decoration: underline; */
+}
+
+footer .widget.articles ul li a:hover {
+  text-decoration: underline;
 }
 
 footer .widget.articles ul li:last-child {
