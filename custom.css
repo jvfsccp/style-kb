@@ -897,7 +897,6 @@ body {
 
 @media (min-width: 1200px) {
   .container {
-    /* width: 1200px; */
   }
 }
 
@@ -1006,7 +1005,9 @@ body {
 
 .header__search {
   width: 100%;
-  background-color: #ef5350;
+  background: #FAFAFA !important;
+  /* border: 2px solid #1c4733; */
+  /* background-color: #ef5350; */
 }
 
 @media (max-width: 767px) {
@@ -1029,7 +1030,7 @@ body {
 }
 
 .header__search .box__search h2 {
-  color: #fff;
+  color: #000;
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -1084,7 +1085,8 @@ body {
   height: auto;
   line-height: normal;
   font-size: 16px;
-  border: solid 1px #fff;
+  /* color: #000; */
+  border: solid 2px #1c4733;
 }
 
 .header__search .box__search .search__form .control .field input:hover {
@@ -1490,21 +1492,21 @@ body > .body-content > div.row > div.col-sm-9:last-child {
 @media (min-width: 1200px) {
   body > .body-content > div.row aside {
     padding: 0 50px 0 0;
-    width: 30%;
+    width: 29%;
     /* width: 21%; */
     margin-right: 25px;
     margin-left: 10px;
     background-color: transparent;
     border: 2px solid #9E9E9E;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
   }
 }
 
 body > .body-content > div.row aside .kb-menu-container {
   background: 0 0;
-  padding: 0;
-  margin-bottom: 30px;
+  /* padding: 0; */
+  /* margin-bottom: 30px; */
 }
 
 body > .body-content > div.row aside .kb-menu-container ul {
@@ -1566,7 +1568,7 @@ body > .body-content > div.row aside .kb-menu-container li ul li {
 }
 
 body > .body-content > div.row aside .kb-menu-container > li {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 body
